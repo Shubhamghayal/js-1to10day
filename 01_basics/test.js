@@ -15,9 +15,8 @@ prefer not to use var
 beccause of issue of block scope and functional scope
 */
 
-
-// Datatypes and ECMA 
-"use strict" //treat all js code as newer version
+// Datatypes and ECMA
+"use strict"; //treat all js code as newer version
 
 // alert() we are using node js
 /*number
@@ -38,9 +37,16 @@ symbol
 // true>1; false>0
 
 // OPerations //
-let value=3
-let negValue=-value
-console.log(negValue)
+// let value=3
+// let negValue=-value
+// console.log(negValue)
 
+// const otherNumber=1123.896617
+// console.log(otherNumber.toPrecision(5));
 
+//Dates
+// let myDate=new Date();
+// console.log(myDate.toJSON());
 
+const myArr = [0, 1, 2, 3, 4, 5];
+console.log(myArr);
