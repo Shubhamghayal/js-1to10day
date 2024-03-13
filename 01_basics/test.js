@@ -130,15 +130,42 @@ symbol
 // }
 
 //functions
-function addtwonum(num1,num2){
-    let total=num1+num2;
-    return total
-}
-const result=addtwonum(8,9);
-// console.log("result",result);
+// function addtwonum(num1,num2){
+//     let total=num1+num2;
+//     return total
+// }
+// const result=addtwonum(8,9);
+// // console.log("result",result);
 
 
-function loginUserMessage(username){
-    return `${username} just login in`
-}
-console.log(loginUserMessage("hitesh"));
+// function loginUserMessage(username){
+//     return `${username} just login in`
+// }
+// console.log(loginUserMessage("hitesh"));
+
+// const chai=function(){
+//     let username="sham"
+//     console.log(username);
+// }
+// chai();//cant use this in functions
+
+ 
+// const addTwoNum=(num1,num2)=>{
+//     return num1+num2;
+// }
+// const addTwoNum=(num1,num2)=>num1+num2
+
+// const addTwoNum=(num1,num2)=>({username:"sham"})
+// console.log(addTwoNum())
+
+
+// (function chai(){
+//     console.log("db connennoDNGN");
+// })();
+
+
+// ((name)=>{
+//     console.log(`db connected by ${name}`);
+// })("sham")
+
+
