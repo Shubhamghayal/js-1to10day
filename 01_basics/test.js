@@ -167,5 +167,33 @@ symbol
 // ((name)=>{
 //     console.log(`db connected by ${name}`);
 // })("sham")
+// const month=4;
+// switch (month) {
+//     case 1:
+//         console.log("Jan") 
+//         break;
+//     case 2:
+//         console.log("Feb") 
+//         break;
+//     case 3:
+//         console.log("Mar") 
+//         break;
+//     case 4:
+//         console.log("April") 
+//         break;
+//     default:
+//         break;
+// }
 
+//terniary Operator
+//condition ?true:false
 
+// const ice=70;
+// ice<=80?console.log("less than80"):console.log("greater than 80");
+
+//for loops
+let num=10;
+for(let i=0;i<=num;i++){
+    console.log(i);
+    
+}
