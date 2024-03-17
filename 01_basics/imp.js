@@ -109,4 +109,8 @@ const books = [
     ]
 
     const total=shopingcart.reduce((acc,item)=> acc+ item.price,0)
-    console.log(total)
+    // console.log(total)
+
+    // DOM
+
+    
