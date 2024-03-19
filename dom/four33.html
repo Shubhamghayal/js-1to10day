@@ -18,5 +18,12 @@
         document.querySelector('.language').appendChild(li)
     }
     addlanguage("python")
+//difference between two approaches are the first one have to traverse all elements in tree not the second option it is optimal
+    function addOptiLanguage(langName){
+        const li=document.createElement("li")
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage("React")
 </script>
 </html>
