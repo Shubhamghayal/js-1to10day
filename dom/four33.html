@@ -25,5 +25,18 @@
         document.querySelector('.language').appendChild(li)
     }
     addOptiLanguage("React")
+    addOptiLanguage("goLang")
+
+    //Edit
+    const secondlang=document.querySelector("li:nth-child(2)")
+    const newli=document.createElement("li")
+    //secondlang.innerHTML="MOJO"
+    newli.textContent="MOJO"
+    secondlang.replaceWith(newli)
+
+    //OR
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML='<li>TypeScript</li>'
+    //Remove
 </script>
 </html>
